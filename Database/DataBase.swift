@@ -1,6 +1,5 @@
 import Foundation
 
-
 class DataBase {
     //zcofu8bnd3ldl
     //https://sheetdb.io/api/v1/zcofu8bnd3ldl/keys
