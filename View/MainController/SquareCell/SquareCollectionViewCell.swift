@@ -13,7 +13,6 @@ class SquareCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         typeImageView.contentMode = .scaleAspectFit
-        
         contentView.backgroundColor = .secondarySystemFill
         contentView.layer.borderWidth = 2
         contentView.layer.borderColor = UIColor.systemGray4.cgColor
@@ -24,12 +23,8 @@ class SquareCollectionViewCell: UICollectionViewCell {
     open func setupCell(by item: SheetItem) {
         typeImageView.image = (item.type == .d ?
                                UIImage(systemName: "folder.circle") :
-                                UIImage(systemName: "doc.richtext.fill"))
-        
+                               UIImage(systemName: "doc.richtext.fill"))
         itemLabel.text = item.content
     }
 
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
